@@ -1,2 +1,23 @@
-# ATM-Software-Python-Project
-A basic ATM simulation project in Python for beginners. Features login, PIN verification, balance check, withdrawal, deposit, and PIN change options. Uses simple lists and loops for core functionality. Great for learning Python basics and logic flow.
+# ATM Automation System (Python)
+
+This is a simple Python-based ATM Automation System that simulates basic banking operations through a command-line interface.
+
+## Features
+
+- User authentication with PIN
+- Balance inquiry
+- Cash deposit
+- Cash withdrawal
+- Transaction summary
+
+## Technologies Used
+
+- Python 3
+- File handling (for data storage)
+- Command-line interface (CLI)
+
+## How to Run
+
+1. Clone the repository:
+2. Run the project:
+
