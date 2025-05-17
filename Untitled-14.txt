@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+class BankAccount {
+private:
+    long long account_holder;
+    double balance;
+
+public:
+    BankAccount(long long account_holder, double balance) {
+        this->account_holder = account_holder;
+        this->balance = balance;
+    }
+
+    void display_balance() {
+        cout << "Balance: " << balance << endl;
+    }
+};
+
+int main() {
+    BankAccount b(1234567890, 5000);
+    b.display_balance();
+    return 0;
+}

@@ -1,0 +1,5 @@
+with open("file2.txt","w")as file:
+    file.write("hello world!!! i am python...")
+with open("file2.txt")as file:
+    data=file.read()
+    print(data)

@@ -1,0 +1,16 @@
+class home:
+    name=None
+    surname=None
+    def zoo(self,na,surna):
+        self.name=na
+        self.surname=surna
+    def foo(self):
+        nickname="raddha"
+        return nickname
+m=home()
+
+m.zoo("sanket","dewase")
+
+print("nickname:",m.foo())
+print("name:",m.name)
+print("name:",m.surname)

@@ -1,0 +1,10 @@
+class Bankaccount:
+    def __init__(self, account_holder, balance):
+        self.__account_holder = account_holder 
+        self.__balance = balance
+
+    def display_balance(self):
+        print("Balance:", self.__balance) 
+
+b = Bankaccount(1234567890, 5000)
+b.display_balance() 

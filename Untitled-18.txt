@@ -1,0 +1,12 @@
+class A:
+    def __init__(self, a):
+        self.a = a
+
+    def __eq__(self, other):
+        if isinstance(other, A):
+            return self.a == other.a
+        return False
+
+ob3 = A(4)
+ob4 = A(4)
+print(ob3 == ob4)

@@ -1,0 +1,9 @@
+capital_city= {"Nepal":"Kathmandu","England":"Londan"}
+print("intial dictionary:\n",capital_city)
+capital_city["japan"]="Tokeyo"
+capital_city["India"]="Mumbai"
+print("\nUpdated dictionary:\n",capital_city)
+print("captial of indai printed wrong...lets correct it")
+capital_city["India"]="New delhi"
+print("\nUpdated dictionary:\n",capital_city)
+print("\nWhat is the capital of India? :",capital_city["India"])

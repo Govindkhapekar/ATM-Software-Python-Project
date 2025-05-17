@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+class home {
+public:
+    std::string name;
+    std::string surname;
+    void zoo(std::string na, std::string surna) 
+    {
+        name = na;
+        surname = surna;
+    }
+    std::string foo() 
+    {
+        std::string nickname = "raddha";
+        return nickname;
+    }
+};
+
+int main()
+{
+    home m;
+    m.zoo("sanket", "dewase");
+    std::cout << "nickname: " << m.foo() << std::endl;
+    std::cout << "name: " << m.name << std::endl;
+    std::cout << "surname: " << m.surname << std::endl;
+    return 0;
+}

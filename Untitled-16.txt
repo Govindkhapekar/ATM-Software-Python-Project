@@ -1,0 +1,10 @@
+class animal:
+    def sound(self):
+        return "some sound"
+    
+class dog (animal):
+    def sound(self):
+        return "brak"
+
+dog1=dog()
+print(dog1.sound())

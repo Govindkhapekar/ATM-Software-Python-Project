@@ -1,0 +1,5 @@
+file =open("file.txt","w")
+file.write("File Handling in python.")
+file.write("\nthis is the open and write command")
+file.close()
+print("file1.txt is created.please check in directory...")

@@ -1,0 +1,4 @@
+file=open("file1.txt","a")
+file.write("\nthis line is added using append command")
+file.close()
+print("file1.txt is modified. please check in directory")

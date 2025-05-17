@@ -1,0 +1,32 @@
+rows = 3  # Define row count
+col = 5  # Define column count
+
+for i in range(1, rows + 1):
+    row_output = ""
+    for j in range(1, col + 1):
+        if j >= 4 - i and j <= 2 + i:     
+            row_output += "* "
+        else:
+            row_output += "  "
+    row_output += "    "  # Space between two patterns
+    for j in range(1, col + 1):
+        if j >= 4 - i and j <= 2 + i:
+            row_output += "* "
+        else:
+            row_output += "  "
+    print(row_output)
+
+for i1 in range(1, 3):
+    row_output = ""
+    for j1 in range(1, 6):
+        if j1 >= 1 + i1 and j1 <= 5 - i1:      
+            row_output += "* "
+        else:
+            row_output += "  "
+    row_output += "    "  # Space between two patterns
+    for j1 in range(1, 6):
+        if j1 >= 1 + i1 and j1 <= 5 - i1:
+            row_output += "* "
+        else:
+            row_output += "  "
+    print(row_output)

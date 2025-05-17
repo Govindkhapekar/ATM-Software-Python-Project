@@ -1,0 +1,19 @@
+from array import *
+arr=array('i',[76,56,2,41,5])
+print("array:",end=" ")
+for i in range(0,5):
+    print(arr[i],end=" ")
+print("\nreversed array:",end=" ")
+arr.reverse()
+for i in range(0,5):
+    print(arr[i],end=" ")
+print("\npop element for array:",end=" ")
+arr.pop()
+arr.pop()
+for i in arr:
+    print(i,end=" ")
+print("\nreversed element 41 and 2 from array:",end=" ")
+arr.remove(41)
+arr.remove(2)
+for i in arr:
+    print(i,end=" ")
